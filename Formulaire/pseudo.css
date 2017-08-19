@@ -1,0 +1,153 @@
+body{font-family: 'Lora', serif; font-weight:bold;font-size:16px;
+
+background-color:#EC644B;
+
+}
+.div1{
+    width:680px;
+    height:1000px;
+    margin:0px auto;
+    background-image:url("rebeight3-675x450.jpg");
+background-position:center;
+background-repeat:no-repeat;
+background-color:orange;
+border-radius:5px;
+border:none;
+position:relative;
+
+
+}
+.lz{position:absolute;
+    bottom:0px;
+    left:5px;
+    color:black;
+    font-family: 'Zeyada', cursive;
+    font-weight:bold;
+}
+.l{
+    color:olive;
+    padding:10px;
+    border:3px solid black;
+    text-align: center;
+    position:absolute;
+
+bottom:0px;
+right:0%;
+font-family: 'Zeyada', cursive;
+    background-color:rgba(20, 170 ,200, 0.5);
+}
+.l:hover{
+    box-shadow:0px 0px 5px black;
+}
+.l::first-letter{
+    font-family: 'Clicker Script', cursive;
+}
+#section1{
+    background-color:rgba(170,200,40,0.6);
+    padding:10px;
+    margin:20px 0px;
+}
+#section2{
+    background-color:rgba(40 ,170 ,200,0.6);
+    padding:10px;
+    margin:20px 0px;
+}
+#section1:hover,#section2:hover{
+    box-shadow:0px 0px 5px #444;
+}
+legend{
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:18px;
+    color:#444;
+}
+#section1 input{
+    width:300px;
+    height:20px;
+    
+}
+#section2 input{
+    width:20px;
+    height:20px;
+    
+    position:relative;
+    top:5px;
+}
+#section1 label{
+    display:inline-block;
+    width:200px;
+    padding:10px 0px 15px 40px;
+}
+#section2 label{
+    display:inline-block;
+    width:200px;
+    padding: 5px 0px 15px 10px;
+    
+}
+input[type="submit"]{
+    float:right;
+    padding:10px;
+    font-size:14px;
+    color:#fff;
+    background-color:#87D37C;
+    font-weight:bold;
+    text-transform:uppercase;
+    border-radius: 5px; 
+    border:none;
+}
+input[type="submit"]:hover{
+    box-shadow:0px 0px 5px #555;
+    background-color:#26A65B;
+}
+@media screen and (max-width:680px){
+    body{
+      background-color:#EC644B;
+
+    }
+}
+@media screen and (min-width:681px) and (max-width:1279px){
+    body{
+        background-color:#D24D57;
+        
+    }
+    legend{
+
+        color:olive;
+        
+    }
+    
+}
+span{
+    float:left;
+}
+.button{
+        background-color: #2185d0;
+    color: #fff;
+    text-shadow: none;
+    background-image: none;
+}
+.ui,.button{
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+   
+    margin: 0 .25em 0 0;
+    padding: .78571429em 1.5em .78571429em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .28571429rem;
+
+    }
+    .button:hover{
+          box-shadow:0px 0px 5px #555;
+    background-color:#2574A9;
+    }
+ 
